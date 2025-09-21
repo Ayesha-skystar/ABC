@@ -1,8 +1,10 @@
 ﻿fastapi==0.95.2
 uvicorn==0.22.0
-torch
-torchvision
+# Use these CPU-only versions for deployment on Render
+torch==2.0.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.15.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
 pillow==10.0.0
 python-multipart==0.0.6
 
 pydantic==2.0.3
+
