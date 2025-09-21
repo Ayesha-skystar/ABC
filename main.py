@@ -9,7 +9,6 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Dict, List, Optional
-import timm
 import torch.nn as nn
 from torchvision import transforms
 import uvicorn
