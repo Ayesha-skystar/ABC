@@ -1,11 +1,11 @@
 fastapi==0.95.2
 uvicorn==0.22.0
-torch==2.2.1
-torchvision==0.17.1
 pillow==10.0.0
 python-multipart==0.0.6
 pydantic==2.0.3
---extra-index-url https://download.pytorch.org/whl/cpu
+https://download.pytorch.org/whl/cpu/torch-2.2.1%2Bcpu-cp311-cp311-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.17.1%2Bcpu-cp311-cp311-linux_x86_64.whl
+
 
 
 
