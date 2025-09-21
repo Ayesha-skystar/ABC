@@ -1,7 +1,6 @@
 # === FIXED MAIN.PY WITH SKIN DETECTION ===
 import os
 import io
-import cv2
 import torch
 import numpy as np
 import logging
